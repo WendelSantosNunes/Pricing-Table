@@ -267,10 +267,6 @@ main section li {
     padding-top: 3.125rem;
   }
 
-  header div h1 {
-    font-size: 1.8rem;
-  }
-
   main section:nth-child(1) {
     margin-top: -4.375rem;
   }
@@ -322,5 +318,23 @@ main section li {
 
   .value p:nth-child(3) {
     font-size: 1.12rem;
+  }
+}
+
+@media (max-width: 11.875rem) {
+  header div h1 {
+    font-size: 1.5rem;
+  }
+
+  .value p:nth-child(1) {
+    font-size: 1.17rem;
+  }
+
+  .value p:nth-child(2) {
+    font-size: 1rem;
+  }
+
+  .value p:nth-child(3) {
+    font-size: 0.9rem;
   }
 }
