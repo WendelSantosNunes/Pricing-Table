@@ -268,7 +268,7 @@ main section li {
   }
 
   main section:nth-child(1) {
-    margin-top: -3.3rem;
+    margin-top: -3rem;
   }
 
   #common {
@@ -324,5 +324,11 @@ main section li {
 
   .value p:nth-child(3) {
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 8.75rem) {
+  main section:nth-child(1) {
+    margin-top: -1rem;
   }
 }
