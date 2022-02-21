@@ -264,11 +264,11 @@ main section li {
   }
 
   header div {
-    padding-top: 3rem;
+    padding-top: 3.125rem;
   }
 
   main section:nth-child(1) {
-    margin-top: -3.375rem;
+    margin-top: -3.3rem;
   }
 
   #common {
@@ -307,18 +307,6 @@ main section li {
   main section li {
     display: block;
   }
-
-  /* .value p:nth-child(1) {
-    font-size: 1.2rem;
-  }
-
-  .value p:nth-child(2) {
-    font-size: 1.2rem;
-  }
-
-  .value p:nth-child(3) {
-    font-size: 1.12rem;
-  } */
 }
 
 @media (max-width: 11.875rem) {
