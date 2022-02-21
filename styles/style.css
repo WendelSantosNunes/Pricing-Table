@@ -233,6 +233,10 @@ main section li {
 }
 
 @media (max-width: 45.3125rem) {
+  main {
+    width: 95%;
+  }
+
   main section:nth-child(1) {
     order: 1;
   }
@@ -265,10 +269,6 @@ main section li {
 
   header div h1 {
     font-size: 1.875rem;
-  }
-
-  main {
-    width: 95%;
   }
 
   main section:nth-child(1) {
