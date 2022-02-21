@@ -268,7 +268,7 @@ main section li {
   }
 
   header div h1 {
-    font-size: 1.875rem;
+    font-size: 1.8rem;
   }
 
   main section:nth-child(1) {
@@ -313,14 +313,14 @@ main section li {
   }
 
   .value p:nth-child(1) {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
 
   .value p:nth-child(2) {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
 
   .value p:nth-child(3) {
-    font-size: 1.125rem;
+    font-size: 1.12rem;
   }
 }
