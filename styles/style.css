@@ -26,34 +26,34 @@ body {
 
 header div,
 main {
-  max-width: 1105px;
+  max-width: 69.0625rem;
   margin: 0 auto;
 }
 
 header {
   background-color: var(--blue);
 
-  height: 450px;
+  height: 28.125rem;
   text-align: center;
 }
 
 header div {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 header div h1 {
-  font-size: 41px;
+  font-size: 2.5625rem;
   font-weight: bold;
 
   color: #fff;
 }
 
 header div p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: lighter;
   color: #fff;
 
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 /* Main */
@@ -66,41 +66,40 @@ main {
 }
 
 main section {
-  background-color: var(--page-background);
-  margin-top: -160px;
+  background-color: #fff;
+  margin-top: -10rem;
 
-  width: 355px;
-  height: 470px;
+  width: 22.1875rem;
+  height: 29.375rem;
 
-  border: 1px solid #000;
-  border-radius: 15px;
-
+  border-radius: 0.9375rem;
+  box-shadow: 0.03125rem 0.03125rem 0.03125rem 0.03125rem;
   position: relative;
 }
 
 main section#Emphasis {
-  margin-top: -170px;
+  margin-top: -10.625rem;
 }
 
 main section:nth-child(2) {
-  height: 490px;
+  height: 30.625rem;
 }
 
 main section .value,
 main section ul,
 main section ul p {
-  padding-left: 30px;
+  padding-left: 1.875rem;
 }
 
 main section h2 {
-  padding: 30px 0 20px 30px;
-  font-size: 18px;
+  padding: 1.875rem 0 1.25rem 1.875rem;
+  font-size: 1.125rem;
   color: #000;
 }
 
 .subtitle {
-  padding: 10px 0 20px 30px;
-  font-size: 14px;
+  padding: 0.625rem 0 1.25rem 1.875rem;
+  font-size: 0.875rem;
 }
 
 .value {
@@ -108,16 +107,15 @@ main section h2 {
 }
 
 .value p:nth-child(1) {
-  font-size: 38px;
+  font-size: 2.375rem;
   font-weight: bold;
   color: #1e2338;
-  /* height: 45px; */
 
   align-self: baseline;
 }
 
 .value p:nth-child(2) {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   color: #1e2338;
 
@@ -125,16 +123,16 @@ main section h2 {
 }
 
 .value p:nth-child(3) {
-  font-size: 18px;
+  font-size: 1.125rem;
   align-self: baseline;
 }
 
 .line {
   content: '2';
   background-color: #eee;
-  height: 1px;
-  width: 100%;
-  margin: 20px 0;
+  height: 0.0625rem;
+  width: 80%;
+  margin: 1.25rem auto;
 }
 
 main section li {
@@ -147,29 +145,51 @@ main section li {
   width: 100%;
   margin: 0 auto;
 
-  background-color: var(--page-background);
+  background-color: #fff;
   border: none;
 
-  bottom: 20px;
+  bottom: 1.25rem;
 }
 
 .button p {
   width: 80%;
   margin: 0 auto;
-  padding: 12px 0;
+  padding: 0.75rem 0;
 
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
 
-  border: 1px solid #000;
-  border-radius: 10px;
+  border: 0.0625rem solid var(--blue);
+  border-radius: 0.625rem;
 }
 
 #Emphasis div:first-child {
   background: var(--yellow);
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 
-  border-radius: 15px 15px 0 0;
+  border-radius: 0.9375rem 0.9375rem 0 0;
+}
+
+#common {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#common div {
+  margin-right: 1.875rem;
+
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.9375rem;
+
+  color: #fff;
+
+  background: var(--blue);
+}
+
+#Emphasis h2 {
+  color: var(--blue);
 }
 
 #Emphasis .button p {
@@ -179,20 +199,24 @@ main section li {
 
 #Emphasis .button p:hover,
 .button p:hover {
-  background: red;
+  background: blue;
   color: #fff;
   cursor: pointer;
 }
 
 /* Responsabilidade */
 
-@media (max-width: 1080px) {
+@media (max-width: 67.5rem) {
   main {
     justify-content: space-around;
   }
 
+  header div {
+    padding-top: 4.125rem;
+  }
+
   main section#Emphasis {
-    margin: 20px auto 30px auto;
+    margin: 1.25rem auto 1.875rem auto;
   }
 
   main section:nth-child(1) {
@@ -208,7 +232,7 @@ main section li {
   }
 }
 
-@media (max-width: 725px) {
+@media (max-width: 45.3125rem) {
   main section:nth-child(1) {
     order: 1;
   }
@@ -222,21 +246,25 @@ main section li {
   }
 
   main section:nth-child(1) {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 
   main section:nth-child(3) {
-    margin: 20px auto 30px auto;
+    margin: 1.25rem auto 1.875rem auto;
   }
 }
 
-@media (max-width: 320px) {
-  header div h1 {
-    font-size: 30px;
+@media (max-width: 20.9375rem) {
+  header {
+    height: 24.5rem;
   }
 
   header div {
-    padding-top: 50px;
+    padding-top: 3.125rem;
+  }
+
+  header div h1 {
+    font-size: 1.875rem;
   }
 
   main {
@@ -244,7 +272,16 @@ main section li {
   }
 
   main section:nth-child(1) {
-    margin-top: -70px;
+    margin-top: -4.375rem;
+  }
+
+  #common {
+    justify-content: space-around;
+  }
+
+  #common div {
+    margin-right: 0;
+    margin-bottom: 0.625rem;
   }
 
   main section p,
@@ -253,12 +290,12 @@ main section li {
   main section h2,
   main section .value,
   .subtitle {
-    padding-left: 0px;
+    padding-left: 0rem;
   }
 
   main section,
   main section#Emphasis {
-    height: 630px;
+    height: 39.375rem;
   }
 
   main section ul,
@@ -276,14 +313,14 @@ main section li {
   }
 
   .value p:nth-child(1) {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .value p:nth-child(2) {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .value p:nth-child(3) {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
