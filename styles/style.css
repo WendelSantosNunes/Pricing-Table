@@ -63,6 +63,7 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
   color: var(--gray);
+  margin-bottom: 30px;
 }
 
 main section {
@@ -309,7 +310,7 @@ main section li {
   }
 }
 
-@media (max-width: 11.875rem) {
+@media (max-width: 12.1875rem) {
   header div h1 {
     font-size: 1.5rem;
   }
@@ -324,6 +325,14 @@ main section li {
 
   .value p:nth-child(3) {
     font-size: 0.9rem;
+  }
+
+  main section #common:nth-child(1) {
+    order: 2;
+  }
+
+  main section #common:nth-child(2) {
+    order: 2;
   }
 }
 
